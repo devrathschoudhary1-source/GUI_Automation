@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 11 11:01:54 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>311 seconds (311299 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TC01_UserInformationTest.verifyUserInformation()'><b>verifyUserInformation</b><br>Test class: tests.TC01_UserInformationTest</td>
+<td></td>
+<td>11</td>
+<td>tests.TC01_UserInformationTest@2a5c8d3f</td></tr>
+<tr>
+<td title='tests.TC06_AnimalDropdownTest.verifyAnimalDropdown()'><b>verifyAnimalDropdown</b><br>Test class: tests.TC06_AnimalDropdownTest</td>
+<td></td>
+<td>8</td>
+<td>tests.TC06_AnimalDropdownTest@4c178a76</td></tr>
+<tr>
+<td title='tests.TC14_DragAndDropTest.TC14_VerifyDragAndDropAction()'><b>TC14_VerifyDragAndDropAction</b><br>Test class: tests.TC14_DragAndDropTest</td>
+<td></td>
+<td>3</td>
+<td>tests.TC14_DragAndDropTest@2925bf5b</td></tr>
+<tr>
+<td title='tests.TC08_SimpleAlertTest.verifySimpleAlert()'><b>verifySimpleAlert</b><br>Test class: tests.TC08_SimpleAlertTest</td>
+<td></td>
+<td>5</td>
+<td>tests.TC08_SimpleAlertTest@1165b38</td></tr>
+<tr>
+<td title='tests.TC04_CountryDropdownTest.verifyCountryDropdown()'><b>verifyCountryDropdown</b><br>Test class: tests.TC04_CountryDropdownTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC04_CountryDropdownTest@3a52dba3</td></tr>
+<tr>
+<td title='tests.TC10_PromptAlertTest.verifyPromptAlert()'><b>verifyPromptAlert</b><br>Test class: tests.TC10_PromptAlertTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC10_PromptAlertTest@279fedbd</td></tr>
+<tr>
+<td title='tests.TC11_BrowserTabTest.TC11_VerifyBrowserTabHandling()'><b>TC11_VerifyBrowserTabHandling</b><br>Test class: tests.TC11_BrowserTabTest</td>
+<td></td>
+<td>17</td>
+<td>tests.TC11_BrowserTabTest@710f4dc7</td></tr>
+<tr>
+<td title='tests.TC07_DatePickerTest.verifyDatePicker()'><b>verifyDatePicker</b><br>Test class: tests.TC07_DatePickerTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TC07_DatePickerTest@2362f559</td></tr>
+<tr>
+<td title='tests.TC05_ColorMultiSelectTest.verifyColorMultiSelect()'><b>verifyColorMultiSelect</b><br>Test class: tests.TC05_ColorMultiSelectTest</td>
+<td></td>
+<td>4</td>
+<td>tests.TC05_ColorMultiSelectTest@b3ca52e</td></tr>
+<tr>
+<td title='tests.TC15_SingleFileUploadTest.TC15_VerifySingleFileUpload()'><b>TC15_VerifySingleFileUpload</b><br>Test class: tests.TC15_SingleFileUploadTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC15_SingleFileUploadTest@6ad82709</td></tr>
+<tr>
+<td title='tests.TC19_DynamicTableTest.TC19_VerifyDynamicWebTable()'><b>TC19_VerifyDynamicWebTable</b><br>Test class: tests.TC19_DynamicTableTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC19_DynamicTableTest@45c7e403</td></tr>
+<tr>
+<td title='tests.TC17_SliderTest.TC17_VerifySliderFunctionality()'><b>TC17_VerifySliderFunctionality</b><br>Test class: tests.TC17_SliderTest</td>
+<td></td>
+<td>7</td>
+<td>tests.TC17_SliderTest@7817fd62</td></tr>
+<tr>
+<td title='tests.TC18_StaticTableTest.TC18_VerifyStaticWebTable()'><b>TC18_VerifyStaticWebTable</b><br>Test class: tests.TC18_StaticTableTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC18_StaticTableTest@510f3d34</td></tr>
+<tr>
+<td title='tests.TC16_MultipleFileUploadTest.TC16_VerifyMultipleFileUpload()'><b>TC16_VerifyMultipleFileUpload</b><br>Test class: tests.TC16_MultipleFileUploadTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC16_MultipleFileUploadTest@1ff4931d</td></tr>
+<tr>
+<td title='tests.TC02_GenderSelectionTest.verifyGenderSelection()'><b>verifyGenderSelection</b><br>Test class: tests.TC02_GenderSelectionTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TC02_GenderSelectionTest@65e98b1c</td></tr>
+<tr>
+<td title='tests.TC13_DoubleClickTest.TC13_VerifyDoubleClickAction()'><b>TC13_VerifyDoubleClickAction</b><br>Test class: tests.TC13_DoubleClickTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC13_DoubleClickTest@61322f9d</td></tr>
+<tr>
+<td title='tests.TC03_WeekDaysSelectionTest.verifyWeekDaysSelection()'><b>verifyWeekDaysSelection</b><br>Test class: tests.TC03_WeekDaysSelectionTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TC03_WeekDaysSelectionTest@752325ad</td></tr>
+<tr>
+<td title='tests.TC12_MouseHoverTest.TC12_VerifyMouseHover()'><b>TC12_VerifyMouseHover</b><br>Test class: tests.TC12_MouseHoverTest</td>
+<td></td>
+<td>2</td>
+<td>tests.TC12_MouseHoverTest@8297b3a</td></tr>
+<tr>
+<td title='tests.TC20_PaginationTableTest.TC20_VerifyPaginationTable()'><b>TC20_VerifyPaginationTable</b><br>Test class: tests.TC20_PaginationTableTest</td>
+<td></td>
+<td>12</td>
+<td>tests.TC20_PaginationTableTest@b2c9a9c</td></tr>
+<tr>
+<td title='tests.TC09_ConfirmationAlertTest.verifyConfirmationAlert()'><b>verifyConfirmationAlert</b><br>Test class: tests.TC09_ConfirmationAlertTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TC09_ConfirmationAlertTest@2aceadd4</td></tr>
+</table><p>
+</body>
+</html>

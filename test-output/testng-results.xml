@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-11T11:01:54 IST" name="Suite" finished-at="2026-06-11T11:07:06 IST" duration-ms="311299">
+    <groups>
+    </groups>
+    <test started-at="2026-06-11T11:01:54 IST" name="Test" finished-at="2026-06-11T11:07:06 IST" duration-ms="311299">
+      <class name="tests.TC18_StaticTableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC18_StaticTableTest@510f3d34]" started-at="2026-06-11T11:05:11 IST" name="setUp" finished-at="2026-06-11T11:05:18 IST" duration-ms="6902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_VerifyStaticWebTable()[pri:0, instance:tests.TC18_StaticTableTest@510f3d34]" started-at="2026-06-11T11:05:18 IST" name="TC18_VerifyStaticWebTable" finished-at="2026-06-11T11:05:21 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_VerifyStaticWebTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC18_StaticTableTest@510f3d34]" started-at="2026-06-11T11:05:21 IST" name="tearDown" finished-at="2026-06-11T11:05:21 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC18_StaticTableTest -->
+      <class name="tests.TC10_PromptAlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC10_PromptAlertTest@279fedbd]" started-at="2026-06-11T11:03:09 IST" name="setUp" finished-at="2026-06-11T11:03:18 IST" duration-ms="8975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPromptAlert()[pri:0, instance:tests.TC10_PromptAlertTest@279fedbd]" started-at="2026-06-11T11:03:18 IST" name="verifyPromptAlert" finished-at="2026-06-11T11:03:20 IST" duration-ms="2455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromptAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC10_PromptAlertTest@279fedbd]" started-at="2026-06-11T11:03:20 IST" name="tearDown" finished-at="2026-06-11T11:03:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC10_PromptAlertTest -->
+      <class name="tests.TC07_DatePickerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC07_DatePickerTest@2362f559]" started-at="2026-06-11T11:05:59 IST" name="setUp" finished-at="2026-06-11T11:06:09 IST" duration-ms="10279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDatePicker()[pri:0, instance:tests.TC07_DatePickerTest@2362f559]" started-at="2026-06-11T11:06:09 IST" name="verifyDatePicker" finished-at="2026-06-11T11:06:16 IST" duration-ms="6211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDatePicker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC07_DatePickerTest@2362f559]" started-at="2026-06-11T11:06:16 IST" name="tearDown" finished-at="2026-06-11T11:06:16 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC07_DatePickerTest -->
+      <class name="tests.TC12_MouseHoverTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC12_MouseHoverTest@8297b3a]" started-at="2026-06-11T11:05:42 IST" name="setUp" finished-at="2026-06-11T11:05:56 IST" duration-ms="14167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC12_VerifyMouseHover()[pri:0, instance:tests.TC12_MouseHoverTest@8297b3a]" started-at="2026-06-11T11:05:56 IST" name="TC12_VerifyMouseHover" finished-at="2026-06-11T11:05:59 IST" duration-ms="2969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_VerifyMouseHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC12_MouseHoverTest@8297b3a]" started-at="2026-06-11T11:05:59 IST" name="tearDown" finished-at="2026-06-11T11:05:59 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC12_MouseHoverTest -->
+      <class name="tests.TC17_SliderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC17_SliderTest@7817fd62]" started-at="2026-06-11T11:05:22 IST" name="setUp" finished-at="2026-06-11T11:05:34 IST" duration-ms="12240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC17_VerifySliderFunctionality()[pri:0, instance:tests.TC17_SliderTest@7817fd62]" started-at="2026-06-11T11:05:34 IST" name="TC17_VerifySliderFunctionality" finished-at="2026-06-11T11:05:42 IST" duration-ms="7486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_VerifySliderFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC17_SliderTest@7817fd62]" started-at="2026-06-11T11:05:42 IST" name="tearDown" finished-at="2026-06-11T11:05:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC17_SliderTest -->
+      <class name="tests.TC09_ConfirmationAlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC09_ConfirmationAlertTest@2aceadd4]" started-at="2026-06-11T11:02:05 IST" name="setUp" finished-at="2026-06-11T11:02:10 IST" duration-ms="5645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyConfirmationAlert()[pri:0, instance:tests.TC09_ConfirmationAlertTest@2aceadd4]" started-at="2026-06-11T11:02:10 IST" name="verifyConfirmationAlert" finished-at="2026-06-11T11:02:17 IST" duration-ms="6940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfirmationAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC09_ConfirmationAlertTest@2aceadd4]" started-at="2026-06-11T11:02:17 IST" name="tearDown" finished-at="2026-06-11T11:02:17 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC09_ConfirmationAlertTest -->
+      <class name="tests.TC20_PaginationTableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC20_PaginationTableTest@b2c9a9c]" started-at="2026-06-11T11:06:16 IST" name="setUp" finished-at="2026-06-11T11:06:26 IST" duration-ms="10574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC20_VerifyPaginationTable()[pri:0, instance:tests.TC20_PaginationTableTest@b2c9a9c]" started-at="2026-06-11T11:06:26 IST" name="TC20_VerifyPaginationTable" finished-at="2026-06-11T11:06:39 IST" duration-ms="12966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_VerifyPaginationTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC20_PaginationTableTest@b2c9a9c]" started-at="2026-06-11T11:06:39 IST" name="tearDown" finished-at="2026-06-11T11:06:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC20_PaginationTableTest -->
+      <class name="tests.TC06_AnimalDropdownTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC06_AnimalDropdownTest@4c178a76]" started-at="2026-06-11T11:06:39 IST" name="setUp" finished-at="2026-06-11T11:06:57 IST" duration-ms="17664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAnimalDropdown()[pri:0, instance:tests.TC06_AnimalDropdownTest@4c178a76]" started-at="2026-06-11T11:06:57 IST" name="verifyAnimalDropdown" finished-at="2026-06-11T11:07:06 IST" duration-ms="8674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAnimalDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC06_AnimalDropdownTest@4c178a76]" started-at="2026-06-11T11:07:06 IST" name="tearDown" finished-at="2026-06-11T11:07:06 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC06_AnimalDropdownTest -->
+      <class name="tests.TC04_CountryDropdownTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC04_CountryDropdownTest@3a52dba3]" started-at="2026-06-11T11:02:17 IST" name="setUp" finished-at="2026-06-11T11:02:28 IST" duration-ms="11203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCountryDropdown()[pri:0, instance:tests.TC04_CountryDropdownTest@3a52dba3]" started-at="2026-06-11T11:02:28 IST" name="verifyCountryDropdown" finished-at="2026-06-11T11:02:31 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC04_CountryDropdownTest@3a52dba3]" started-at="2026-06-11T11:02:31 IST" name="tearDown" finished-at="2026-06-11T11:02:31 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC04_CountryDropdownTest -->
+      <class name="tests.TC08_SimpleAlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC08_SimpleAlertTest@1165b38]" started-at="2026-06-11T11:01:55 IST" name="setUp" finished-at="2026-06-11T11:01:59 IST" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySimpleAlert()[pri:0, instance:tests.TC08_SimpleAlertTest@1165b38]" started-at="2026-06-11T11:02:00 IST" name="verifySimpleAlert" finished-at="2026-06-11T11:02:05 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySimpleAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC08_SimpleAlertTest@1165b38]" started-at="2026-06-11T11:02:05 IST" name="tearDown" finished-at="2026-06-11T11:02:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC08_SimpleAlertTest -->
+      <class name="tests.TC15_SingleFileUploadTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC15_SingleFileUploadTest@6ad82709]" started-at="2026-06-11T11:05:01 IST" name="setUp" finished-at="2026-06-11T11:05:09 IST" duration-ms="8183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC15_VerifySingleFileUpload()[pri:0, instance:tests.TC15_SingleFileUploadTest@6ad82709]" started-at="2026-06-11T11:05:09 IST" name="TC15_VerifySingleFileUpload" finished-at="2026-06-11T11:05:11 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_VerifySingleFileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC15_SingleFileUploadTest@6ad82709]" started-at="2026-06-11T11:05:11 IST" name="tearDown" finished-at="2026-06-11T11:05:11 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC15_SingleFileUploadTest -->
+      <class name="tests.TC03_WeekDaysSelectionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC03_WeekDaysSelectionTest@752325ad]" started-at="2026-06-11T11:02:53 IST" name="setUp" finished-at="2026-06-11T11:03:03 IST" duration-ms="9779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWeekDaysSelection()[pri:0, instance:tests.TC03_WeekDaysSelectionTest@752325ad]" started-at="2026-06-11T11:03:03 IST" name="verifyWeekDaysSelection" finished-at="2026-06-11T11:03:09 IST" duration-ms="6476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeekDaysSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC03_WeekDaysSelectionTest@752325ad]" started-at="2026-06-11T11:03:09 IST" name="tearDown" finished-at="2026-06-11T11:03:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC03_WeekDaysSelectionTest -->
+      <class name="tests.TC14_DragAndDropTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC14_DragAndDropTest@2925bf5b]" started-at="2026-06-11T11:03:48 IST" name="setUp" finished-at="2026-06-11T11:03:56 IST" duration-ms="7564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC14_VerifyDragAndDropAction()[pri:0, instance:tests.TC14_DragAndDropTest@2925bf5b]" started-at="2026-06-11T11:03:56 IST" name="TC14_VerifyDragAndDropAction" finished-at="2026-06-11T11:03:59 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_VerifyDragAndDropAction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC14_DragAndDropTest@2925bf5b]" started-at="2026-06-11T11:03:59 IST" name="tearDown" finished-at="2026-06-11T11:03:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC14_DragAndDropTest -->
+      <class name="tests.TC11_BrowserTabTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC11_BrowserTabTest@710f4dc7]" started-at="2026-06-11T11:03:59 IST" name="setUp" finished-at="2026-06-11T11:04:06 IST" duration-ms="7066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC11_VerifyBrowserTabHandling()[pri:0, instance:tests.TC11_BrowserTabTest@710f4dc7]" started-at="2026-06-11T11:04:06 IST" name="TC11_VerifyBrowserTabHandling" finished-at="2026-06-11T11:04:23 IST" duration-ms="17049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_VerifyBrowserTabHandling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC11_BrowserTabTest@710f4dc7]" started-at="2026-06-11T11:04:23 IST" name="tearDown" finished-at="2026-06-11T11:04:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC11_BrowserTabTest -->
+      <class name="tests.TC01_UserInformationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC01_UserInformationTest@2a5c8d3f]" started-at="2026-06-11T11:02:31 IST" name="setUp" finished-at="2026-06-11T11:02:41 IST" duration-ms="10428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserInformation()[pri:0, instance:tests.TC01_UserInformationTest@2a5c8d3f]" started-at="2026-06-11T11:02:41 IST" name="verifyUserInformation" finished-at="2026-06-11T11:02:53 IST" duration-ms="11468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC01_UserInformationTest@2a5c8d3f]" started-at="2026-06-11T11:02:53 IST" name="tearDown" finished-at="2026-06-11T11:02:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC01_UserInformationTest -->
+      <class name="tests.TC19_DynamicTableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC19_DynamicTableTest@45c7e403]" started-at="2026-06-11T11:03:39 IST" name="setUp" finished-at="2026-06-11T11:03:46 IST" duration-ms="6960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC19_VerifyDynamicWebTable()[pri:0, instance:tests.TC19_DynamicTableTest@45c7e403]" started-at="2026-06-11T11:03:46 IST" name="TC19_VerifyDynamicWebTable" finished-at="2026-06-11T11:03:48 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_VerifyDynamicWebTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC19_DynamicTableTest@45c7e403]" started-at="2026-06-11T11:03:48 IST" name="tearDown" finished-at="2026-06-11T11:03:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC19_DynamicTableTest -->
+      <class name="tests.TC05_ColorMultiSelectTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC05_ColorMultiSelectTest@b3ca52e]" started-at="2026-06-11T11:03:20 IST" name="setUp" finished-at="2026-06-11T11:03:34 IST" duration-ms="13618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyColorMultiSelect()[pri:0, instance:tests.TC05_ColorMultiSelectTest@b3ca52e]" started-at="2026-06-11T11:03:34 IST" name="verifyColorMultiSelect" finished-at="2026-06-11T11:03:39 IST" duration-ms="4930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyColorMultiSelect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC05_ColorMultiSelectTest@b3ca52e]" started-at="2026-06-11T11:03:39 IST" name="tearDown" finished-at="2026-06-11T11:03:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC05_ColorMultiSelectTest -->
+      <class name="tests.TC13_DoubleClickTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC13_DoubleClickTest@61322f9d]" started-at="2026-06-11T11:04:49 IST" name="setUp" finished-at="2026-06-11T11:04:59 IST" duration-ms="9531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC13_VerifyDoubleClickAction()[pri:0, instance:tests.TC13_DoubleClickTest@61322f9d]" started-at="2026-06-11T11:04:59 IST" name="TC13_VerifyDoubleClickAction" finished-at="2026-06-11T11:05:01 IST" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_VerifyDoubleClickAction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC13_DoubleClickTest@61322f9d]" started-at="2026-06-11T11:05:01 IST" name="tearDown" finished-at="2026-06-11T11:05:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC13_DoubleClickTest -->
+      <class name="tests.TC02_GenderSelectionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC02_GenderSelectionTest@65e98b1c]" started-at="2026-06-11T11:04:39 IST" name="setUp" finished-at="2026-06-11T11:04:43 IST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGenderSelection()[pri:0, instance:tests.TC02_GenderSelectionTest@65e98b1c]" started-at="2026-06-11T11:04:43 IST" name="verifyGenderSelection" finished-at="2026-06-11T11:04:49 IST" duration-ms="6135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGenderSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC02_GenderSelectionTest@65e98b1c]" started-at="2026-06-11T11:04:49 IST" name="tearDown" finished-at="2026-06-11T11:04:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC02_GenderSelectionTest -->
+      <class name="tests.TC16_MultipleFileUploadTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC16_MultipleFileUploadTest@1ff4931d]" started-at="2026-06-11T11:04:23 IST" name="setUp" finished-at="2026-06-11T11:04:37 IST" duration-ms="13963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC16_VerifyMultipleFileUpload()[pri:0, instance:tests.TC16_MultipleFileUploadTest@1ff4931d]" started-at="2026-06-11T11:04:37 IST" name="TC16_VerifyMultipleFileUpload" finished-at="2026-06-11T11:04:39 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_VerifyMultipleFileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC16_MultipleFileUploadTest@1ff4931d]" started-at="2026-06-11T11:04:39 IST" name="tearDown" finished-at="2026-06-11T11:04:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC16_MultipleFileUploadTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
